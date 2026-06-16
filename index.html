@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>e-Shikshakosh DCF for Teacher</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>e-Shikshakosh DCF for Teacher</h1>
+
+<form id="teacherForm">
+
+<!-- Registration Information -->
+
+<h2>Registration Information</h2>
+
+<div class="grid">
+
+<label>Prefix *</label>
+<select name="Prefix">
+<option>Mr.</option>
+<option>Mrs.</option>
+<option>Ms.</option>
+<option>Dr.</option>
+</select>
+
+<label>First Name *</label>
+<input type="text" name="First Name" required>
+
+<label>Middle Name</label>
+<input type="text" name="Middle Name">
+
+<label>Last Name *</label>
+<input type="text" name="Last Name" required>
+
+<label>Gender *</label>
+<select name="Gender">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<label>Date of Birth *</label>
+<input type="date" name="Date of Birth">
+
+<label>Social Category *</label>
+<select name="Social Category">
+<option>General</option>
+<option>OBC</option>
+<option>SC</option>
+<option>ST</option>
+<option>EWS</option>
+</select>
+
+<label>Religion *</label>
+<input type="text" name="Religion">
+
+<label>Mobile Number *</label>
+<input type="tel" name="Mobile Number">
+
+<label>Aadhaar Number *</label>
+<input type="text" name="Aadhaar Number">
+
+<label>Nature of Appointment *</label>
+<input type="text" name="Nature of Appointment">
+
+<label>Type of Teacher *</label>
+<input type="text" name="Type of Teacher">
+
+<label>Type of Sub Teacher</label>
+<input type="text" name="Type of Sub Teacher">
+
+<label>Class Category *</label>
+<input type="text" name="Class Category">
+
+<label>Appointed Subject *</label>
+<input type="text" name="Appointed Subject">
+
+<label>Date of Joining in Service *</label>
+<input type="date" name="Date of Joining">
+
+<label>District of First Joining *</label>
+<input type="text" name="District of First Joining">
+
+<label>GPF Number *</label>
+<input type="text" name="GPF Number">
+
+<label>UAN Number *</label>
+<input type="text" name="UAN Number">
+
+<label>PRAN Number *</label>
+<input type="text" name="PRAN Number">
+
+</div>
+
+<!-- Posting Details -->
+
+<h2>Posting Details</h2>
+
+<div class="grid">
+
+<label>District *</label>
+<input type="text" name="District">
+
+<label>Block *</label>
+<input type="text" name="Block">
+
+<label>Cluster/Complex Resource Center *</label>
+<input type="text" name="Cluster">
+
+<label>School *</label>
+<input type="text" name="School">
+
+<label>Appointment for Level *</label>
+<input type="text" name="Level">
+
+<label>Appointing Authority *</label>
+<input type="text" name="Authority">
+
+<label>Date of Joining Current School *</label>
+<input type="date" name="Current School Joining">
+
+</div>
+
+<!-- Personal Information -->
+
+<h2>Personal Information</h2>
+
+<div class="grid">
+
+<label>PAN Number *</label>
+<input type="text" name="PAN">
+
+<label>Father Name *</label>
+<input type="text" name="Father Name">
+
+<label>Mother Name *</label>
+<input type="text" name="Mother Name">
+
+<label>Marital Status *</label>
+<select name="Marital Status">
+<option>Married</option>
+<option>Unmarried</option>
+<option>Divorced</option>
+<option>Widowed</option>
+</select>
+
+<label>Email ID *</label>
+<input type="email" name="Email">
+
+<label>Spouse Name *</label>
+<input type="text" name="Spouse">
+
+<label>Blood Group *</label>
+<select name="Blood Group">
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+</select>
+
+<label>Appointment Category *</label>
+<input type="text" name="Appointment Category">
+
+<label>Whether Disabled ? *</label>
+<select name="Disabled">
+<option>No</option>
+<option>Yes</option>
+</select>
+
+<label>Whether Awarded ? *</label>
+<select name="Awarded">
+<option>No</option>
+<option>Yes</option>
+</select>
+
+</div>
+
+<!-- Permanent Address -->
+
+<h2>Permanent Address</h2>
+
+<div class="grid">
+
+<label>House Number/Name</label>
+<input type="text" name="P House">
+
+<label>Street/Mohalla/Sector</label>
+<input type="text" name="P Street">
+
+<label>Panchayat *</label>
+<input type="text" name="P Panchayat">
+
+<label>Post Office *</label>
+<input type="text" name="P Post Office">
+
+<label>Village/Area/Town *</label>
+<input type="text" name="P Village">
+
+<label>Block *</label>
+<input type="text" name="P Block">
+
+<label>District *</label>
+<input type="text" name="P District">
+
+<label>PIN Code *</label>
+<input type="text" name="P Pin">
+
+<label>State *</label>
+<input type="text" name="P State">
+
+<label>Domicile Certificate Submitted *</label>
+<input type="text" name="P Domicile Submitted">
+
+<label>Domicile Certificate No *</label>
+<input type="text" name="P Domicile No">
+
+<label>Copy of Domicile Certificate *</label>
+<input type="file" name="P Domicile Copy">
+
+</div>
+
+<!-- Current Address -->
+
+<h2>Current Address</h2>
+
+<div class="grid">
+
+<label>House Number/Name</label>
+<input type="text" name="C House">
+
+<label>Street/Mohalla/Sector</label>
+<input type="text" name="C Street">
+
+<label>Panchayat *</label>
+<input type="text" name="C Panchayat">
+
+<label>Post Office *</label>
+<input type="text" name="C Post Office">
+
+<label>Village/Area/Town *</label>
+<input type="text" name="C Village">
+
+<label>Block *</label>
+<input type="text" name="C Block">
+
+<label>District *</label>
+<input type="text" name="C District">
+
+<label>PIN Code *</label>
+<input type="text" name="C Pin">
+
+<label>State *</label>
+<input type="text" name="C State">
+
+<label>Domicile Certificate Submitted *</label>
+<input type="text" name="C Domicile Submitted">
+
+<label>Domicile Certificate No *</label>
+<input type="text" name="C Domicile No">
+
+<label>Copy of Domicile Certificate *</label>
+<input type="file" name="C Domicile Copy">
+
+</div>
+
+<button type="button" onclick="generatePreview()">
+Preview Form
+</button>
+
+</form>
+
+<div id="preview"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
